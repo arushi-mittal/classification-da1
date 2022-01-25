@@ -46,6 +46,8 @@ Additionally, the parameters ranked highest across a wide range of values and we
 
 ### 4. Feature Subset
 
+The features included were 'DATE', 'DEPTH', 'LAT (N)', 'LON (E)', 'MONTH', 'YEAR' because they were relevant and added a lot of information to the different classifiers.
+
 ### 5. Result Analysis
 
 Decision trees with a preprune depth of 5 were the most accurate model with an accuracy greater than 88.85%, whereas Decision Trees with 300 estimators were close with over 87.99 % accuracy. KNN had 88.25% accuracy.
